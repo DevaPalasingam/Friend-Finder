@@ -1,0 +1,84 @@
+1
+Pick a weapon
+-Bow and arrow
+-Broadsword
+-Axe
+-Enchanted sword
+-Magic
+
+2
+Sit down for a meal, what do you eat?
+-Lots of meat
+-Organic food
+-Homemade food
+-Everything
+-Light meal and tea
+
+3
+Orcs are running towards you and your friends
+-Bow and arrow
+-Charge
+-Scream and cry, but still but still fight your best
+-Fight and lead the team
+-Protect others
+
+4
+You're in a market and there's lots of people. How do you feel?
+-Uneasy
+-I don't really notice
+-I'm not scared of people
+-I'm okay if I have a friend with me
+-Suspicious of those around me
+
+5
+Evil is brewing in the forest. What do you do?
+-Show up when all hope is lost
+-Fight, I aint scared of nothing
+-Fight, while scared and crying the whole time
+-Gather some companions and fight
+-Meh, don't care
+
+6
+Which of these words best describes you?
+-Courageous
+-Compassionate
+-Wise
+-Strong
+-Loyal
+
+7
+Being organized is more important to you than being adaptable.
+-Strongly disagree
+-Somewhat disagree
+-Neutral
+-Somewhat agree
+-Strongly agree
+
+8
+Winning a debate matters less to you than making sure no one gets upset.
+-Strongly disagree
+-Somewhat disagree
+-Neutral
+-Somewhat agree
+-Strongly agree
+
+9
+You do not mind being at the center of attention.
+-Strongly disagree
+-Somewhat disagree
+-Neutral
+-Somewhat agree
+-Strongly agree
+
+10
+Your travel plans are usually well thought out.
+-Strongly disagree
+-Somewhat disagree
+-Neutral
+-Somewhat agree
+-Strongly agree
+
+Default friends:
+Gimli
+Pippen
+Gandalf
