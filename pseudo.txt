@@ -1,8 +1,11 @@
 
 
-Front End ===================================================
+What user sees ==============================================
 
-Starting
+Home Page
+	-has button to start survey
+
+Survey
 	-starts by asking user name
 	-ask for url to user picture
 	-10 question survey
@@ -13,5 +16,27 @@ Algorithm
 
 Print
 	-Prints info of closest match to user
+
+============================================================
+
+
+
+
+Files ===================================================
+
+friends.js
+	-contains the objects of each person
+
+home.html
+	-html for the homepage
+
+survey.html
+	-html for survey
+
+apiRoutes.js
+	-contains the routes to the JSON for specific people
+
+htmlRoutes.js
+	-contains the routes for the html files
 
 ============================================================
