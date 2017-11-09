@@ -1,0 +1,17 @@
+
+
+Front End ===================================================
+
+Starting
+	-starts by asking user name
+	-ask for url to user picture
+	-10 question survey
+
+Algorithm
+	-compares user answers to people in the database
+	-finds person with closest match
+
+Print
+	-Prints info of closest match to user
+
+============================================================
