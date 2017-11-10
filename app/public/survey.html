@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1 class="text-center"><span class="glyphicon glyphicon-fire"></span> Friend Finder</h1>
+      <hr>
+      <h2 class="text-center">Let's make a new friend</h2>
+      <br>
+
+      <!-- <div class="text-center">
+        <a href="/tables"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> View Tables</button></a>
+        <a href="/"><button type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-home"></span></button></a>
+      </div> -->
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+
+        <!-- Reservation Page -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">Tell me about yourself</h4>
+          </div>
+          <div class="panel-body">
+
+            <form role="form">
+
+              <div class="form-group">
+                <label for="user-name">Name</label>
+                <input type="text" class="form-control" id="user-name">
+              </div>
+
+              <div class="form-group">
+                <label for="user-photo">Photo Url</label>
+                <input type="text" class="form-control" id="user-photo">
+              </div>
+
+              <!-- <div class="form-group">
+                <label for="reserve-email">Email</label>
+                <input type="text" class="form-control" id="reserve-email">
+              </div>
+
+              <div class="form-group">
+                <label for="reserve-unique-id">Unique ID</label>
+                <input type="text" class="form-control" id="reserve-unique-id">
+              </div> -->
+
+              <div class="dropdown" id="question1" style="margin-bottom: 20px;">
+                <p>Pick a weapon</p>
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 1</a></li>
+                  <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 1</a></li>
+                  <li><a href="#">Bow and arrow</a></li>
+                  <li><a href="#">Broadsword</a></li>
+                  <li><a href="#">Axe</a></li>
+                  <li><a href="#">I don't know how to use a weapon</a></li>
+                  <li><a href="#">Magic</a></li>
+                </ul>
+              </div>
+
+              <select class="form-control">
+    <option value="one">One</option>
+    <option value="two">Two</option>
+    <option value="three">Three</option>
+    <option value="four">Four</option>
+    <option value="five">Five</option>
+</select>
+
+              <div class="dropdown" id="question2" style="margin-bottom: 20px;">
+                <p>Sit down for a meal, what do you eat?</p>
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Lots of meat</a></li>
+                  <li><a href="#">Organic food</a></li>
+                  <li><a href="#">Homemade food</a></li>
+                  <li><a href="#">Everything</a></li>
+                  <li><a href="#">Light meal and tea</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown" id="question3" style="margin-bottom: 20px;">
+                <p>Orcs are running towards you and your friends. What do you do?</p>
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Bow and arrow</a></li>
+                  <li><a href="#">Charge</a></li>
+                  <li><a href="#">Scream and cry, but still but still fight your best</a></li>
+                  <li><a href="#">Fight and lead the team</a></li>
+                  <li><a href="#">Protect others</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown" id="question4" style="margin-bottom: 20px;">
+                <p>You're in a market and there's lots of people. How do you feel?</p>
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Uneasy</a></li>
+                  <li><a href="#">I don't really notice</a></li>
+                  <li><a href="#">I'm not scared of people</a></li>
+                  <li><a href="#">I'm okay if I have a friend with me</a></li>
+                  <li><a href="#">Suspicious of those around me</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown" id="question5" style="margin-bottom: 20px;">
+                <p>Evil is brewing in the forest. What do you do?</p>
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Show up when all hope is lost</a></li>
+                  <li><a href="#">Fight, I aint scared of nothing</a></li>
+                  <li><a href="#">Fight, while scared and crying the whole time</a></li>
+                  <li><a href="#">Gather some companions and fight</a></li>
+                  <li><a href="#">Meh, don't care</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown" id="question6" style="margin-bottom: 20px;">
+                <p>Which of these words best describes you?</p>
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Courageous</a></li>
+                  <li><a href="#">Compassionate</a></li>
+                  <li><a href="#">Wise</a></li>
+                  <li><a href="#">Strong</a></li>
+                  <li><a href="#">Loyal</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown" id="question7" style="margin-bottom: 20px;">
+                <p>Being organized is more important to you than being adaptable.</p>
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Strongly disagree</a></li>
+                  <li><a href="#">Somewhat disagree</a></li>
+                  <li><a href="#">Neutral</a></li>
+                  <li><a href="#">Somewhat agree</a></li>
+                  <li><a href="#">Strongly agree</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown" id="question8" style="margin-bottom: 20px;">
+                <p>Winning a debate matters less to you than making sure no one gets upset.</p>
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Strongly disagree</a></li>
+                  <li><a href="#">Somewhat disagree</a></li>
+                  <li><a href="#">Neutral</a></li>
+                  <li><a href="#">Somewhat agree</a></li>
+                  <li><a href="#">Strongly agree</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown" id="question9" style="margin-bottom: 20px;">
+                <p>You do not mind being at the center of attention.</p>
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Strongly disagree</a></li>
+                  <li><a href="#">Somewhat disagree</a></li>
+                  <li><a href="#">Neutral</a></li>
+                  <li><a href="#">Somewhat agree</a></li>
+                  <li><a href="#">Strongly agree</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown" id="question10" style="margin-bottom: 20px;">
+                <p>Your travel plans are usually well thought out.</p>
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Strongly disagree</a></li>
+                  <li><a href="#">Somewhat disagree</a></li>
+                  <li><a href="#">Neutral</a></li>
+                  <li><a href="#">Somewhat agree</a></li>
+                  <li><a href="#">Strongly agree</a></li>
+                </ul>
+              </div>
+
+
+
+              <button type="submit" class="btn btn-primary submit">Submit</button>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/tables">API Table Link</a> | <a href="/api/waitlist">API Wait List</a> | <a href="https://github.com/afhaque/HotRestaurant">GitHub Repo</a></p>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+<script type="text/javascript">
+
+    // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+    // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+    // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+    // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+
+    $(".submit").on("click", function(event) {
+      event.preventDefault();
+
+      // Here we grab the form elements
+      var newReservation = {
+        name: $("#user-name").val().trim(),
+        photo: $("#user-photo").val().trim(),
+        // customerEmail: $("#reserve-email").val().trim(),
+        // customerID: $("#reserve-unique-id").val().trim()
+      };
+
+      console.log(newReservation);
+
+      // This line is the magic. It"s very similar to the standard ajax function we used.
+      // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+      // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+      // depending on if a tables is available or not.
+
+      $.post("/api/tables", newReservation,
+        function(data) {
+
+          // If a table is available... tell user they are booked.
+          if (data) {
+            alert("Yay! You are officially booked!");
+          }
+
+          // If a table is available... tell user they on the waiting list.
+          else {
+            alert("Sorry you are on the wait list");
+          }
+
+          // Clear the form when submitting
+          $("#user-name").val("");
+          $("#user-photo").val("");
+          // $("#reserve-email").val("");
+          // $("#reserve-unique-id").val("");
+
+        });
+
+    });
+
+</script>

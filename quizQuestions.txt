@@ -3,7 +3,7 @@ Pick a weapon
 -Bow and arrow
 -Broadsword
 -Axe
--Enchanted sword
+-I don't know how to use a weapon
 -Magic
 
 2
@@ -15,7 +15,7 @@ Sit down for a meal, what do you eat?
 -Light meal and tea
 
 3
-Orcs are running towards you and your friends
+Orcs are running towards you and your friends. What do you do?
 -Bow and arrow
 -Charge
 -Scream and cry, but still but still fight your best
