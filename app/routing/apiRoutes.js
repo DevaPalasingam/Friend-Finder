@@ -9,4 +9,11 @@ module.exports = function(app) {
   	});
 
 
+
+	app.post("/api/friendsData", function(req, res) {
+		friends.push(req.body);
+
+		// code here to send JSON of new friend
+	});
+
 }
