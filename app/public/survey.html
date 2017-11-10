@@ -206,8 +206,8 @@
 
       // Here we grab the form elements
       var newUser = {
-        name: $("#user-name").val().trim(),
-        photo: $("#user-photo").val().trim(),
+        name: $("#user-name").val(),
+        photo: $("#user-photo").val(),
         scores: [
           parseInt($("#question1").val()),
           parseInt($("#question2").val()),
@@ -233,7 +233,7 @@
 
       $.post("/api/friendsData", newUser, function(data) {
         // alert a new friend here
-        
+
       });
       
 
