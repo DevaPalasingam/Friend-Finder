@@ -16,7 +16,7 @@ var friendsArray = [
 	    ]
 	},
 	{
-	  	name:"Pippen",
+	  	name:"Pippin",
 	  	photo:"http://images2.fanpop.com/image/photos/12300000/Pippin-Took-pippin-took-12389182-960-406.jpg",
 	  	scores: [
 	      4,
