@@ -26,13 +26,13 @@ Print
 Algorithm for finding best friend ===========================
 
 var matching = 100
-var index = 0
+var matchingIndex = 0
 
 Compare the user's answers to the answers of each person
 Add the differences together
 If the sum of differences is less than matching, change matching to that one, then update the index
 
- 
+
 
 ==============================================================
 
