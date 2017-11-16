@@ -82,3 +82,4 @@ Default friends:
 Gimli
 Pippen
 Gandalf
+Bane

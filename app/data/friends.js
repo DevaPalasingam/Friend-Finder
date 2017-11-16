@@ -1,5 +1,21 @@
 var friendsArray = [
 	{
+	  	name:"Bane",
+	  	photo:"https://static.comicvine.com/uploads/scale_small/9/99801/2132844-darkknightrises20111201.jpg",
+	  	scores: [
+	      4,
+	      4,
+	      4,
+	      5,
+	      4,
+	      4,
+	      3,
+	      3,
+	      3,
+	      3
+	    ]
+	},
+	{
 	  	name:"Gimli",
 	  	photo:"https://upload.wikimedia.org/wikipedia/en/f/f0/Gimli_With_Axe.jpg",
 	  	scores: [
