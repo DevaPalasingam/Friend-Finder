@@ -2,8 +2,8 @@
 
 In 10 easy questions you can find your new best friend....in theory.
 
-![Alt text](/app/img/friend1.jpg?raw=true)
-![Alt text](/app/img/friend2.jpg?raw=true)
+![Alt text](/app/img/friend.jpg?raw=true)
+![Alt text](/app/img/chosenFriend.jpg?raw=true)
 
 
 ## How to Use
