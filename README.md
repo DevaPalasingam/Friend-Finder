@@ -2,7 +2,7 @@
 
 In 10 easy questions you can find your new best friend....in theory.
 
-Demo: https://github.com/DevaPalasingam/Friend-Finder
+Demo: https://gentle-hollows-53819.herokuapp.com/
 
 ![Alt text](/app/img/friendFinder1.jpg?raw=true)
 ![Alt text](/app/img/friendFinder2.jpg?raw=true)
