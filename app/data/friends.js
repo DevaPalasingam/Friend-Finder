@@ -1,7 +1,7 @@
 var friendsArray = [
 	{
 	  	name:"Bane",
-	  	photo:"https://static.comicvine.com/uploads/scale_small/9/99801/2132844-darkknightrises20111201.jpg",
+	  	photo:"https://slimfitjackets.co.uk/image/data/pavblog/Dark-Knight-Rises-Bane-Outfit1.jpg",
 	  	scores: [
 	      4,
 	      4,
